@@ -1,0 +1,49 @@
+img{
+    width: 560px;
+    
+}
+#marcadeagua{
+  position: relative;
+  top: -30px;
+  left: 150px;
+  color: white
+}
+
+.flex{
+    display: flex;
+    
+}
+
+h1{
+    padding-left: 40px;
+    
+}
+
+.datos{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 50px 50px;
+    column-gap: 15px;
+    padding-left: 30px;
+    padding-inline: 20px;
+    padding-bottom: 60px;
+}
+
+.account{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.sign-in{
+    padding-left: 30px;
+}
+
+body{
+    padding-left: 30px;
+    margin-top: 30px;
+        
+}
+
+.datos>div>div{
+    margin-top: 10px;
+}
