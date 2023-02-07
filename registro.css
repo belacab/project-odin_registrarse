@@ -1,5 +1,6 @@
 img{
     width: 560px;
+    border-radius: 25px;
     
 }
 #marcadeagua{
@@ -16,7 +17,8 @@ img{
 
 h1{
     padding-left: 40px;
-    
+    font-family: 'Playfair Display', serif;
+    font-size: 50px
 }
 
 .datos{
@@ -36,14 +38,24 @@ h1{
 
 .sign-in{
     padding-left: 30px;
+    
 }
 
 body{
     padding-left: 30px;
     margin-top: 30px;
-        
+    background-color: whitesmoke;
+    
 }
 
 .datos>div>div{
     margin-top: 10px;
+}
+
+.contenido{
+    justify-content: center;
+     
+}
+.contenido>div{
+    margin-right: 30px;
 }
